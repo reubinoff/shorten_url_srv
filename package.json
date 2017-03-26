@@ -1,0 +1,24 @@
+{
+  "name": "shorten_url_srv",
+  "version": "1.0.0",
+  "description": "pass a URL as a parameter and you will receive a shortened URL in the JSON response",
+  "main": "index.js",
+  "scripts": {
+    "start": "start index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reubinoff/shorten_url_srv.git"
+  },
+  "author": "Moshe Reubinoff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reubinoff/shorten_url_srv/issues"
+  },
+  "homepage": "https://github.com/reubinoff/shorten_url_srv#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongodb": "^2.2.25"
+  }
+}
